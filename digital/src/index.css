@@ -1,0 +1,28 @@
+body {
+  background-image: url(https://imgs.search.brave.com/P7LeJFc-1izszjtVNJc17WUUtkbCWDwpQFHQPErasjc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM2/OTI2OTQ1Ni9waG90/by9kYXRhLXRlY2hu/b2xvZ3ktY29tcHV0/ZXItZ2VuZXJhdGVk/LWRpZ2l0YWwtY3Vy/cmVuY3ktYW5kLWV4/Y2hhbmdlLXN0b2Nr/LWNoYXJ0LWZvci1m/aW5hbmNlLWFuZC5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/ZDY3ZlgtOGd3d1Vz/ZHRVdFhnUWo1SWFW/LU15LXVnSWpEeXhS/Z3JlVFplRT0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.clock-container {
+  backdrop-filter: blur(3px);
+  width: fit-content;
+
+}
+
+.clock {
+
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 10px 3px 5px hsla(0, 95%, 31%, 0.685);
+
+}
